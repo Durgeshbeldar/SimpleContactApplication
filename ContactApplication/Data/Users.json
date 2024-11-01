@@ -1,0 +1,42 @@
+[
+  {
+    "UserId": 123456,
+    "FirstName": "Durgesh",
+    "LastName": "Kumavat",
+    "IsAdmin": true,
+    "IsActive": true,
+    "Contacts": []
+  },
+  {
+    "UserId": 899947,
+    "FirstName": "Manish",
+    "LastName": "Wath",
+    "IsAdmin": true,
+    "IsActive": true,
+    "Contacts": []
+  },
+  {
+    "UserId": 840745,
+    "FirstName": "Mohan",
+    "LastName": "Bhagale",
+    "IsAdmin": false,
+    "IsActive": true,
+    "Contacts": []
+  },
+  {
+    "UserId": 101010,
+    "FirstName": "Ayesha",
+    "LastName": "Malik",
+    "IsAdmin": true,
+    "IsActive": true,
+    "Contacts": []
+  },
+  {
+    "UserId": 101101,
+    "FirstName": "Mohit",
+    "LastName": "Chaturvedi",
+    "IsAdmin": false,
+    "IsActive": false,
+    "Contacts": []
+  }
+]
