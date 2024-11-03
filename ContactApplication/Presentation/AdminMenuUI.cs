@@ -43,7 +43,7 @@ namespace ContactApplication.Presentation
                         Console.WriteLine("\nSuccessfully Logout From Admin Panel!\n");
                         return;
                     default:
-                        Console.WriteLine("Invalid User Input");
+                        Console.WriteLine("Invalid Input, Please Select Valid Option");
                         break;
                 }
             }

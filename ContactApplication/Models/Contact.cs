@@ -26,18 +26,16 @@ namespace ContactApplication.Models
         string GetContactDetails()
         {
             string result = "";
-            foreach (var contact in ContactDetails)
-            {
-                result = result + contact.ToString();
-            }
+            for(int i = 0; i < ContactDetails.Count; i++)
+                result = result + ContactDetails[i].ToString();
             return result;
         }
         public override string ToString()
         {
-            return $"Contact Id : {ContactId}\n" +
+            return $"\nContact Id : {ContactId}\n" +
                 $"Full Name : {FirstName} {LastName}\n" +
                 $"\nContact Details : \n" +
-                $"{GetContactDetails()}\n";
+                $"{GetContactDetails()}";
         }
     }
 }

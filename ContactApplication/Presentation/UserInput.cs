@@ -93,7 +93,7 @@ namespace ContactApplication.Presentation
             }
         }
 
-        // Contact User Inputs 
+        // User Inputs For Contacts...
 
         public static Contact GetNewContact(StaffController staffController)
         {
@@ -170,7 +170,7 @@ namespace ContactApplication.Presentation
             {
                 Console.WriteLine("Enter Unique Contact Id : ");
                 contactDetailId = int.Parse(Console.ReadLine());
-                if (staffController.IsUniqueContactDetailId(contact,contactDetailId))
+                if (staffController.IsUniqueORExistContactDetailId(contact,contactDetailId))
                     return contactDetailId;
                 throw new Exception("ContactDetail Id is Already Exist, Please Enter Unique ContactDetail Id");
             }
@@ -180,5 +180,12 @@ namespace ContactApplication.Presentation
                 return GetUniqueContactDetailId(staffController, contact);
             }
         }
+
+
+
+
+
+
+
     }
 }

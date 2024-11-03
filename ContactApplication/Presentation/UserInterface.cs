@@ -23,10 +23,8 @@ namespace ContactApplication.Presentation
                 AdminMenuUI.MenuUI(null);
                 Environment.Exit(0);    
             }
-            
-            int userId = UserInput.GetUserId();
-            
-            User user = userController.GetUserById(userId);
+
+            User user = GetUser();
 
             switch (user.IsAdmin)
             {
@@ -40,6 +38,19 @@ namespace ContactApplication.Presentation
 
         }
 
-        
+        static User GetUser()
+        {
+            int userId = UserInput.GetUserId();
+            try
+            {
+                User user = userController.GetUserById(userId);
+                return user;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return GetUser();
+            }
+        }
     }
 }

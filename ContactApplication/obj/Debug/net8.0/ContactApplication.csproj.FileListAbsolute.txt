@@ -21,3 +21,4 @@ S:\Office Work\Monocept Training\Assignments\ContactApplication\ContactApplicati
 S:\Office Work\Monocept Training\Assignments\ContactApplication\ContactApplication\obj\Debug\net8.0\ContactApplication.pdb
 S:\Office Work\Monocept Training\Assignments\ContactApplication\ContactApplication\obj\Debug\net8.0\ContactApplication.genruntimeconfig.cache
 S:\Office Work\Monocept Training\Assignments\ContactApplication\ContactApplication\obj\Debug\net8.0\ref\ContactApplication.dll
+S:\Office Work\Monocept Training\Assignments\ContactApplication\ContactApplication\obj\Debug\net8.0\ContactApplication.sourcelink.json

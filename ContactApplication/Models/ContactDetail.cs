@@ -22,9 +22,9 @@ namespace ContactApplication.Models
       
         public override string ToString()
         {
+           
             return $"     Contact DetailId : {ContactDetailId}\n" +
-                $"     {Type} : {Value}\n" +
-                $"--------------------------------------------------\n";
+                $"     {Type} : {Value}\n";
         }
     }
 }

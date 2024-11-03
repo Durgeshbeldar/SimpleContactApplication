@@ -1,42 +1,68 @@
 [
   {
     "UserId": 123456,
-    "FirstName": "Durgesh",
+    "FirstName": "Shyam",
     "LastName": "Kumavat",
     "IsAdmin": true,
     "IsActive": true,
     "Contacts": []
   },
   {
-    "UserId": 899947,
-    "FirstName": "Manish",
-    "LastName": "Wath",
-    "IsAdmin": true,
-    "IsActive": true,
-    "Contacts": []
-  },
-  {
-    "UserId": 840745,
-    "FirstName": "Mohan",
-    "LastName": "Bhagale",
-    "IsAdmin": false,
-    "IsActive": true,
-    "Contacts": []
-  },
-  {
-    "UserId": 101010,
-    "FirstName": "Ayesha",
-    "LastName": "Malik",
-    "IsAdmin": true,
-    "IsActive": true,
-    "Contacts": []
-  },
-  {
-    "UserId": 101101,
-    "FirstName": "Mohit",
-    "LastName": "Chaturvedi",
+    "UserId": 121212,
+    "FirstName": "Mansi",
+    "LastName": "Qureshi",
     "IsAdmin": false,
     "IsActive": false,
-    "Contacts": []
+    "Contacts": [
+      {
+        "ContactId": 121212,
+        "FirstName": "Shyam",
+        "LastName": "Kumavat",
+        "IsActive": true,
+        "ContactDetails": [
+          {
+            "ContactDetailId": 121212,
+            "Type": "Mobile Number",
+            "Value": "8999475893"
+          },
+          {
+            "ContactDetailId": 121213,
+            "Type": "Address",
+            "Value": "Chalisgaon, Jalgaon"
+          },
+          {
+            "ContactDetailId": 121216,
+            "Type": "Pin Code",
+            "Value": "500458"
+          }
+        ]
+      },
+      {
+        "ContactId": 121214,
+        "FirstName": "Sushant",
+        "LastName": "Singh",
+        "IsActive": true,
+        "ContactDetails": [
+          {
+            "ContactDetailId": 121214,
+            "Type": "Mobile Number",
+            "Value": "8578585785"
+          }
+        ]
+      },
+      {
+        "ContactId": 121215,
+        "FirstName": "Siya",
+        "LastName": "Kashyap",
+        "IsActive": false,
+        "ContactDetails": [
+          {
+            "ContactDetailId": 121215,
+            "Type": "Mobile Number",
+            "Value": "8999475885"
+          }
+        ]
+      }
+    ]
   }
 ]
